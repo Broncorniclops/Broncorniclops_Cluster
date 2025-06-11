@@ -1,0 +1,17 @@
+
+[Unit]
+Description=Digital Cluster PID Debugger UI
+After=network.target graphical.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/digital_cluster/tools/pid_combined_tool.py
+WorkingDirectory=/home/pi/digital_cluster/tools
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+
+[Install]
+WantedBy=graphical.target

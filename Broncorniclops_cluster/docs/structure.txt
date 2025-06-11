@@ -1,0 +1,72 @@
+/project_root/
+  ambient_temp_sensor.py
+  apply_update_schedule.py
+  auto_hide_toolbar.py
+  brightness_control.py
+  can_interface.py
+  can_pid_debugger.py
+  can_pid_test_viewer.py
+  cluster_app.py
+  diagnostics_app.py
+  diagnostics_overlay.py
+  dtc_manager.py
+  dtc_viewer.py
+  fan_controller.py
+  gauge_layout_sharing.py
+  gauge_profile_switcher.py
+  gauge_renderer.py
+  gauge_self_test.py
+  gesture_manager.py
+  icon_customizer.py
+  layout_mode_toggle.py
+  layout_profile_manager.py
+  layout_saver.py
+  main.py
+  mpg_estimator.py
+  odometer_display.py
+  odometer_integrity_viewer.py
+  odometer_manager.py
+  odometer_override.py
+  pid_dtc_app.py
+  pid_manager.py
+  prndl_display.py
+  sensor_manager.py
+  settings_dtc_menu.py
+  settings_menu.py
+  shutdown_overlay.py
+  style_manager.py
+  toolbar.py
+  touchscreen_calibrator.py
+  ups_monitor.py
+
+/project_root/logging/
+  can_log_viewer.py
+  export_config_to_usb.py
+  log_manager.py
+  log_viewer.py
+  sensor_graph_exporter.py
+  usb_exporter.py
+
+/project_root/system/
+  startup_selfcheck.py
+  startup_selfcheck_overlay.py
+
+/project_root/ui/
+  auto_update_panel.py
+  dtc_popup.py
+  gesture_binding_editor.py
+  layout_editor.py
+  layout_profile_popup.py
+  log_settings_panel.py
+  log_viewer_panel.py
+  mpg_panel.py
+  odometer_settings_popup.py
+  ota_update_panel.py
+  sensor_graph_panel.py
+  settings_popup.py
+  style_settings_panel.py
+  theme_manager.py
+  update_schedule_panel.py
+  usb_theme_loader.py
+  visual_theme_builder.py
+  wifi_settings_panel.py

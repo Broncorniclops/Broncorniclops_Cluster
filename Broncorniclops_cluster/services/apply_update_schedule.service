@@ -1,0 +1,10 @@
+[Unit]
+Description=Apply update schedule for digital cluster
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/apply_update_schedule.py
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

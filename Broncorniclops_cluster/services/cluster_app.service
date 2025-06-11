@@ -1,0 +1,12 @@
+[Unit]
+Description=Digital Gauge Cluster Application
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/digital_cluster/cluster_app.py
+WorkingDirectory=/home/pi/digital_cluster
+Restart=always
+User=pi
+
+[Install]
+WantedBy=graphical.target
